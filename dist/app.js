@@ -31,6 +31,10 @@ function respectMotion() {
 }
 respectMotion();
 reducedMotion.addEventListener('change', respectMotion);
+const floatingContact = document.querySelector('.floating-contact');
+new IntersectionObserver(([entry]) => {
+  floatingContact.hidden = entry.isIntersecting;
+}).observe(document.querySelector('#inicio'));
 const dialog = document.querySelector('#video-dialog');
 const video = document.querySelector('#brand-video');
 document.querySelector('#ver-video').addEventListener('click', () => { dialog.showModal(); video.play().catch(() => {}); });
