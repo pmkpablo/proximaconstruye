@@ -28,3 +28,7 @@ Herramienta integrada ImageGen, a partir del logo original local visto antes de 
 - `dist/assets/favicon-x.png`, 1254 × 1254. Prompt: «Use case background-extraction. ExtractONLY existingcentraltealXmergedupwardarrow. Preserveexactshape/proportionscolor, removelettersP/R/O/I/M/A, genuinetransparentalpha, centerinsquarePNGsmallpaddinglegible favicon, notredesign.»
 
 Originales de salida preservados en C:/Users/Sunchoo/.codex/generated_images/01a1026e-fbc9-7fa3-bb05-13e6157f188d/.
+
+## Ícono de WhatsApp
+
+`dist/assets/whatsapp.svg`: símbolo de marca WhatsApp de Font Awesome Free 6.7.2, repositorio oficial https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/whatsapp.svg. Licencia CC BY 4.0 para íconos: https://fontawesome.com/license/free. Se conservó la atribución en el SVG y se ajustó el relleno a blanco para el botón verde. No se alteró el trazado del símbolo.

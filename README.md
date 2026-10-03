@@ -31,3 +31,5 @@ WhatsApp +54 9 381 3513216 e info@proximaconstruye.com, según folletos. Configu
 ## Recursos visuales
 
 Detalle de origen, licencia y edición en `ASSETS.md`. Logo sin fondo y favicon X con transparencia real. Footer: «Sitio web por Axhum Tech». Las fotos de competidores y los planos IDEAL.HOUSE no se utilizaron.
+
+Actualización de interfaz: portada de servicios con imagen, títulos y espacios ajustados para celular, bloque de contacto con botones alineados y flotante circular con ícono WhatsApp. Verificado a 320, 390 y 820 píxeles, además de escritorio; sin desbordamiento horizontal en las páginas revisadas.
