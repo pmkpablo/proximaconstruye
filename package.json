@@ -1,0 +1,1 @@
+{"name":"proxima-construye","version":"1.0.0","private":true,"scripts":{"dev":"node server.mjs","build":"node check.mjs","check":"node check.mjs"},"engines":{"node":">=20"}}

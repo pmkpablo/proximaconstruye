@@ -1,0 +1,6 @@
+research/
+node_modules/
+.env
+.env.*
+.wrangler/
+output/
