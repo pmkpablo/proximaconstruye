@@ -1,31 +1,33 @@
 # Próxima Construye
 
-Web estática original en HTML, CSS y JavaScript, preparada para Cloudflare Pages. Sin dependencias ni código del constructor Hostinger.
+Sitio estático original en HTML, CSS y JavaScript, publicado en Cloudflare Pages. Sin dependencias ni código del constructor Hostinger.
 
-## Ejecutar
+## Desarrollo y publicación
 
-`npm run dev` abre un servidor en http://127.0.0.1:4173. `npm run build` verifica archivos, anclas y JavaScript. Publicar el directorio `dist`.
+- `npm run dev`: servidor local en http://127.0.0.1:4173 (se puede cambiar con la variable `PORT`).
+- `npm run build`: genera las páginas desde `build-site.mjs` y `src/home-hero.html`; valida enlaces, anclas, recursos, metadatos, crédito, ausencia de precios y sintaxis.
+- Publicar la carpeta `dist` mediante «Create deployment» en Cloudflare Pages, entorno Production. Elegir carpeta, no ZIP como archivo.
 
-## Cloudflare Pages
+Proyecto: https://proximaconstruye.pages.dev/. Dominio: https://proximaconstruye.com/ y https://www.proximaconstruye.com/. Publicación inicial y ampliación: 3 de octubre de 2026.
 
-Publicado el 3 de octubre de 2026 mediante Direct Upload en el proyecto `proximaconstruye`: https://proximaconstruye.pages.dev/. Dominio principal: https://proximaconstruye.com/. También se vinculó `www.proximaconstruye.com`.
+Código: https://github.com/pmkpablo/proximaconstruye, rama `main`. Pages usa Direct Upload; un push a GitHub no publica automáticamente.
 
-El código está guardado en `pmkpablo/proximaconstruye`, rama `main`. El proyecto Pages usa carga directa: los pushes a GitHub no despliegan automáticamente. Para actualizar, ejecutar `npm run build` y cargar la carpeta `dist` desde «Create deployment» en Cloudflare Pages.
+Nameservers confirmados: `huxley.ns.cloudflare.com` y `kinsley.ns.cloudflare.com`. CNAME proxied de `@` y `www` hacia `proximaconstruye.pages.dev`. Correo Hostinger conservado: MX, SPF, DKIM, DMARC, autoconfig y autodiscover como DNS only.
 
-Nameservers confirmados: `huxley.ns.cloudflare.com` y `kinsley.ns.cloudflare.com`. Cloudflare gestiona CNAME proxied de `@` y `www` hacia `proximaconstruye.pages.dev`. Se preservaron MX, SPF, DKIM, DMARC, autoconfig y autodiscover del correo Hostinger, todos como DNS only.
+## Páginas y alcance
 
-## Contenido y contacto
+Inicio con hero en video; Wood Frame; viviendas; cabañas; catálogo de servicios; construcción convencional; ampliaciones y refacciones; diseño y planificación; piscinas y exteriores; contacto. Incluye galerías ampliables, preguntas frecuentes, consultas específicas por servicio, sitemap y página 404.
 
-Base documental: CARPETA PROXIMA REV.2.pdf, TRIPTICO PROXIMA 02.pdf, FOLLETO CABAÑAS 1.pdf e Indicaciones Proxima Construye.txt. El HTML de Web Proxima construye.txt se revisó como referencia mínima. Misión reescrita, Wood Frame in situ como foco, otros servicios y «Sobre mí» postergado.
+No se publican precios, promociones ni financiación. Las modalidades documentadas son Wood Frame in situ y construcción convencional. Los diseños son referencias ilustrativas, sin medidas ni atribución como obras ejecutadas. Los porcentajes de ahorro y el plazo fijo de los folletos no se presentan como garantías generales.
 
-Contacto de los folletos: 381 3513216 e info@proximaconstruye.com. WhatsApp normalizado a +54 9 381 3513216; editar `contacto` en `dist/app.js` y enlaces visibles si cambia el destinatario. No se comprobó externamente que el número tenga una cuenta WhatsApp activa.
+Base: CARPETA PROXIMA REV.2.pdf, TRIPTICO PROXIMA 02.pdf, FOLLETO CABAÑAS 1.pdf e Indicaciones Proxima Construye.txt. Web Proxima construye.txt se revisó como referencia mínima. Misión reescrita; «Sobre mí» postergado.
 
-El formulario prepara mensajes para WhatsApp o la aplicación de correo mediante mailto. No hay backend de envío automático, almacenamiento de datos ni confirmaciones ficticias. El visitante confirma el envío en la aplicación elegida.
+Referencias revisadas: https://gaurosviviendas.com.ar/ y https://www.viviendascolon.com.ar/. Se adaptaron organización por categorías, explicación del sistema, fichas propias y galerías. No se copiaron código, textos, imágenes ni promesas comerciales ajenas.
 
-Los archivos visuales y el video fueron aportados por el cliente. No se descargaron imágenes de competidores ni se reutilizaron planos con marca IDEAL.HOUSE. Las viviendas se rotulan como propuestas ilustrativas, sin atribuirlas como obras ejecutadas.
+## Contacto
 
-El hero reproduce el mismo video de diseño sobre planos que usaba Hostinger, optimizado sin sonido. Procedencia: Pexels 5582830; original https://videos.pexels.com/video-files/5582830/5582830-hd_1280_720_25fps.mp4. Licencia verificada en https://www.pexels.com/license/ el 3 de octubre de 2026: permite uso y modificación en sitios web. Es material ilustrativo, no evidencia de personal u obras de Próxima. Incluye pausa, bucle y respeto por movimiento reducido. El video de obra del cliente continúa bajo demanda. No se crearon subdominios adicionales: sus nombres y contenidos independientes todavía no están definidos.
+WhatsApp +54 9 381 3513216 e info@proximaconstruye.com, según folletos. Configuración en `dist/app.js` y enlaces visibles del generador. El formulario prepara una consulta con nombre, correo, tipo de obra, ubicación, terreno, superficie opcional y mensaje. El visitante confirma el envío en WhatsApp o su aplicación de correo. No hay backend ni almacenamiento de consultas.
 
-Referencias estructurales consultadas: https://gaurosviviendas.com.ar/ y https://sevayco.com/. Viviendas Colón no fue accesible con la herramienta de navegación. No se copió código ni texto de estos sitios.
+## Recursos visuales
 
-Antes de abrir al público: validar vigencia de teléfono, autorización de los recursos del cliente y alcance comercial de servicios. Los porcentajes de ahorro y el plazo fijo de 60 días de los folletos no se presentan como garantías generales.
+Detalle de origen, licencia y edición en `ASSETS.md`. Logo sin fondo y favicon X con transparencia real. Footer: «Sitio web por Axhum Tech». Las fotos de competidores y los planos IDEAL.HOUSE no se utilizaron.
