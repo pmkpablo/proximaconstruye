@@ -15,8 +15,8 @@
 .whatsapp-link.button:not(.light) .whatsapp-icon{filter:none}
 .page-cta .whatsapp-link{justify-content:flex-start}
 .page-cta .whatsapp-label{flex:1;justify-content:space-between}
-.footer-top>div>a.whatsapp-link{display:flex;align-items:center;gap:10px;color:var(--deep)}
-.footer-top>div>a.whatsapp-link>.whatsapp-icon{filter:brightness(0) saturate(100%);width:22px;height:25px}
+.footer-top>div>a.whatsapp-link{display:flex;align-items:center;justify-content:flex-start;gap:10px;color:var(--deep)}
+.footer-top>div>a.whatsapp-link.button>.whatsapp-icon{filter:brightness(0) saturate(100%);width:22px;height:25px}
 .footer-top>div>a.whatsapp-link>.whatsapp-label{flex:none}
 .page-cta .cta-actions{max-width:100%}
 /* Consistent contact actions and compact, mobile-first layouts. */
