@@ -46,3 +46,5 @@ Material aportado y autorizado por el cliente desde Descargas/Proxima Construye/
 - recorrido-2.mp4: WhatsApp Video 2026-10-09 at 13.42.17.mp4.
 
 Fotos exportadas a WebP sin retoques que modifiquen la obra. Videos H.264 de 720 px de ancho, pista de audio eliminada y faststart; reproducción a demanda. Descripción limitada a estructura metálica, chapas y encuentros observables; no se afirma impermeabilidad, aislamiento, superficies ni ubicación no documentados.
+
+Foto adicional uniones-chapas.webp: codex-clipboard-ffdf88f3-ae09-4873-bc90-382932908708.jpg, aportada por el cliente el 9 de octubre de 2026 para mostrar encuentros entre chapas. Exportación WebP sin alterar el contenido de la obra.
