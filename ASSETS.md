@@ -32,3 +32,17 @@ Originales de salida preservados en C:/Users/Sunchoo/.codex/generated_images/01a
 ## Ícono de WhatsApp
 
 `dist/assets/whatsapp.svg`: símbolo de marca WhatsApp de Font Awesome Free 6.7.2, repositorio oficial https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/brands/whatsapp.svg. Licencia CC BY 4.0 para íconos: https://fontawesome.com/license/free. Se conservó la atribución en el SVG y se ajustó el relleno a blanco para el botón verde. No se alteró el trazado del símbolo.
+
+## Obras reales · Trabajo en cubiertas (9 de octubre de 2026)
+
+Material aportado y autorizado por el cliente desde Descargas/Proxima Construye/Trabajo 1. Cinco fotografías seleccionadas por claridad de la cubierta, encuadre y menor presencia de distracciones. Se conserva una foto del montaje para documentar el proceso.
+
+- cubierta-1.webp: WhatsApp Image 2026-10-09 at 13.40.54.jpeg.
+- cubierta-2.webp: WhatsApp Image 2026-10-09 at 13.42.18 (2).jpeg.
+- cubierta-3.webp: WhatsApp Image 2026-10-09 at 13.42.19 (1).jpeg.
+- cubierta-4.webp: WhatsApp Image 2026-10-09 at 13.42.19 (2).jpeg.
+- cubierta-5.webp: WhatsApp Image 2026-10-09 at 13.42.17.jpeg.
+- recorrido-1.mp4: WhatsApp Video 2026-10-09 at 13.40.47.mp4.
+- recorrido-2.mp4: WhatsApp Video 2026-10-09 at 13.42.17.mp4.
+
+Fotos exportadas a WebP sin retoques que modifiquen la obra. Videos H.264 de 720 px de ancho, pista de audio eliminada y faststart; reproducción a demanda. Descripción limitada a estructura metálica, chapas y encuentros observables; no se afirma impermeabilidad, aislamiento, superficies ni ubicación no documentados.

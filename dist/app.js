@@ -127,6 +127,7 @@ if (galleryDialog) {
       galleryImage.src = button.dataset.image;
       galleryImage.alt = button.dataset.title;
       galleryTitle.textContent = button.dataset.title;
+      galleryDialog.querySelector('.caption').textContent = button.dataset.caption || 'Imagen ilustrativa. El diseño y las características se definen para cada proyecto.';
       galleryDialog.showModal();
     });
   });

@@ -35,3 +35,5 @@ Detalle de origen, licencia y edición en `ASSETS.md`. Logo sin fondo y favicon 
 Actualización de interfaz: portada de servicios con imagen, títulos y espacios ajustados para celular, bloque de contacto con botones alineados y flotante circular con ícono WhatsApp. Verificado a 320, 390 y 820 píxeles, además de escritorio; sin desbordamiento horizontal en las páginas revisadas.
 
 Navegación de servicios: desplegable con cinco tipos de trabajo y acceso al catálogo. Se abre con cursor en escritorio, toque dentro del menú móvil y teclado (Enter, espacio y flechas); Escape cierra primero el submenú y después el menú. La selección navega a la página correspondiente y restablece los estados. El cambio de tamaño cierra la navegación; se respeta movimiento reducido.
+
+Portfolio de obras reales: /obras/ y /obras/trabajo-en-cubiertas/. Navegación después de Cabañas. Cinco fotos ampliables y dos videos sin audio, aportados por el cliente el 9 de octubre de 2026. Referencias de presentación: https://www.ytredezeen.com/projects y https://www.dosarchitects.com/ (selección visual y fichas de proyecto; sin reutilizar recursos).
